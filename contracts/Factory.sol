@@ -408,7 +408,6 @@ library Math {
 }
 
 library UQ112x112 {
-    uint224 constant Q112 = 2**112;
 
     
 

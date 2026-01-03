@@ -243,7 +243,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint amount0;
         uint amount1;
         unchecked {
-             amount0 = balance0 - _reserve0;
 
             
         

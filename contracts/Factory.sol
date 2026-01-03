@@ -374,6 +374,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
         getPair[token0][token1] = pair;
         getPair[token1][token0] = pair; // populate mapping in the reverse direction
         allPairs.push(pair);
+        emit PairCreated(token0, token1, pair, allPairs.length);
 
 
     

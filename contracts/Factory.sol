@@ -336,7 +336,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         address _token1 = token1; // gas savings
         unchecked {
             _safeTransfer(_token0, to, IERC20(_token0).balanceOf(address(this)) - reserve0);
-            _safeTransfer(_token1, to, IERC20(_token1).balanceOf(address(this)) - reserve1);
 
     
 

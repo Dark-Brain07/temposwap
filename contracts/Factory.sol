@@ -294,6 +294,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         emit Burn(msg.sender, amount0, amount1, to);
     }
 
+    // this low-level function should be called from a contract which performs important safety checks
 
         
         

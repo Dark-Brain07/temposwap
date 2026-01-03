@@ -530,3 +530,4 @@ library TransferHelper {
         require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: TRANSFER_FROM_FAILED');
     }
 
+    function safeTransferETH(address to, uint value) internal {

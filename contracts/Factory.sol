@@ -308,7 +308,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         require(to != _token0 && to != _token1, 'UniswapV2: INVALID_TO');
         if (amount0Out > 0) _safeTransfer(_token0, to, amount0Out);
         if (amount1Out > 0) _safeTransfer(_token1, to, amount1Out);
-        if (data.length > 0) IUniswapV2Callee(to).uniswapV2Call(msg.sender, amount0Out, amount1Out, data);
         
         
         

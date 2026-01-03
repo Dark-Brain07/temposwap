@@ -525,6 +525,5 @@ library TransferHelper {
         require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: TRANSFER_FAILED');
     }
 
-    function safeTransferFrom(address token, address from, address to, uint value) internal {
     
 

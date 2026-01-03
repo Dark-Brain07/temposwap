@@ -503,6 +503,7 @@ library UniswapV2Library {
         }
     }
 
+    function getAmountsIn(address factory, uint amountOut, address[] memory path) internal view returns (uint[] memory amounts) {
 
 
     

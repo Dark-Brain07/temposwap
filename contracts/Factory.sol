@@ -284,7 +284,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         }
         require(amount0 > 0 && amount1 > 0, 'UniswapV2: INSUFFICIENT_LIQUIDITY_BURNED');
         _burn(address(this), liquidity);
-        _safeTransfer(_token0, to, amount0);
 
 
 

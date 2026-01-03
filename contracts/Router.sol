@@ -469,7 +469,6 @@ library UniswapV2Library {
         require(reserveA > 0 && reserveB > 0, 'UniswapV2Library: INSUFFICIENT_LIQUIDITY');
         unchecked {
             amountB = amountA * reserveB / reserveA;
-        }
     
 
     

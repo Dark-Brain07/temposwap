@@ -320,7 +320,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         }
         require(amount0In > 0 || amount1In > 0, 'UniswapV2: INSUFFICIENT_INPUT_AMOUNT');
         { // scope for reserve{0,1}Adjusted, avoids stack too deep errors
-        unchecked {
         
         
 

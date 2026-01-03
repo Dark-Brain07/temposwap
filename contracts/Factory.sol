@@ -239,7 +239,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     function mint(address to) external lock returns (uint liquidity) {
         (uint112 _reserve0, uint112 _reserve1,) = getReserves(); // gas savings
         uint balance0 = IERC20(token0).balanceOf(address(this));
-        uint balance1 = IERC20(token1).balanceOf(address(this));
 
             
         

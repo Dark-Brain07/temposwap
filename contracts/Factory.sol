@@ -383,6 +383,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
     }
 
     function setFeeToSetter(address _feeToSetter) external {
+        require(msg.sender == feeToSetter, 'UniswapV2: FORBIDDEN');
     }
 
 

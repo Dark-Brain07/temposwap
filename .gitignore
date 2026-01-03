@@ -1,0 +1,24 @@
+# General
+node_modules/
+.DS_Store
+.env
+.env.local
+.env.*
+*.log
+
+# Next.js
+.next/
+out/
+build/
+coverage/
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
+
+# Hardhat / Foundry
+artifacts/
+cache/
+typechain/
+broadcast/
+# out is used by both Next (export) and Foundry (compilation) often, but typically Foundry uses 'out' and Next uses '.next'.
+# If Next uses 'out' for export, we ignore it.

@@ -324,7 +324,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
             uint balance0Adjusted = balance0 * 1000 - amount0In * 3;
             uint balance1Adjusted = balance1 * 1000 - amount1In * 3;
             require(balance0Adjusted * balance1Adjusted >= uint(_reserve0) * _reserve1 * 1000**2, 'UniswapV2: K');
-        }
+        
         
 
     

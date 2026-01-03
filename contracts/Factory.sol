@@ -295,7 +295,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     }
 
     // this low-level function should be called from a contract which performs important safety checks
-    function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external lock {
 
         
         

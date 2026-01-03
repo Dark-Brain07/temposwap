@@ -332,7 +332,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     }
 
     function skim(address to) external lock {
-        address _token0 = token0; // gas savings
 
     
 

@@ -412,6 +412,7 @@ contract UniswapV2Router02 {
     function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut)
         public
         pure
+        virtual
     
     
 

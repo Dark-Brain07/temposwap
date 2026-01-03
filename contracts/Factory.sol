@@ -212,6 +212,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         emit Sync(reserve0, reserve1);
     }
 
+    // if fee is on, mint liquidity equivalent to 1/6th of the growth in sqrt(k)
             
         
     

@@ -428,7 +428,6 @@ contract UniswapV2Router02 {
     }
 
     function getAmountsOut(uint amountIn, address[] memory path)
-        public
     
 
     

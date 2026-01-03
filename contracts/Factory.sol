@@ -259,7 +259,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
                 liquidity = Math.min(amount0 * _totalSupply / _reserve0, amount1 * _totalSupply / _reserve1);
             }
         }
-        require(liquidity > 0, 'UniswapV2: INSUFFICIENT_LIQUIDITY_MINTED');
 
 
 

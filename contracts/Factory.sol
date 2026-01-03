@@ -304,7 +304,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint balance1;
         { // scope for _token{0,1}, avoids stack too deep errors
         address _token0 = token0;
-        address _token1 = token1;
         
         
         

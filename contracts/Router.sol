@@ -424,6 +424,7 @@ contract UniswapV2Router02 {
         virtual
         returns (uint amountIn)
     {
+        return UniswapV2Library.getAmountIn(amountOut, reserveIn, reserveOut);
     
 
     

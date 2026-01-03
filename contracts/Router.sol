@@ -472,7 +472,6 @@ library UniswapV2Library {
         }
     }
 
-    function getAmountOut(uint amountIn, uint reserveIn, uint reserveOut) internal pure returns (uint amountOut) {
     
 
     

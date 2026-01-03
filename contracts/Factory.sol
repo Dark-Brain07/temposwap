@@ -252,7 +252,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         if (_totalSupply == 0) {
             unchecked {
                 liquidity = Math.sqrt(amount0 * amount1) - MINIMUM_LIQUIDITY;
-            }
+            
         
 
 

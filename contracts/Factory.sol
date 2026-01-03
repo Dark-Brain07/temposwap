@@ -276,6 +276,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint balance1 = IERC20(_token1).balanceOf(address(this));
         uint liquidity = balanceOf[address(this)];
 
+        bool feeOn = _mintFee(_reserve0, _reserve1);
         
 
 

@@ -198,6 +198,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     function _update(uint balance0, uint balance1, uint112 _reserve0, uint112 _reserve1) private {
         require(balance0 <= type(uint112).max && balance1 <= type(uint112).max, 'UniswapV2: OVERFLOW');
         uint32 blockTimestamp = uint32(block.timestamp % 2**32);
+        unchecked {
 
             
         

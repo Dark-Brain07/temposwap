@@ -399,6 +399,7 @@ contract UniswapV2Router02 {
         );
         _swapSupportingFeeOnTransferTokens(path, address(this));
         uint amountOutput = IERC20(WETH).balanceOf(address(this));
+        IWETH(WETH).withdraw(amountOutput);
 
     
 

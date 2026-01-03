@@ -418,6 +418,7 @@ contract UniswapV2Router02 {
         return UniswapV2Library.getAmountOut(amountIn, reserveIn, reserveOut);
     }
 
+    function getAmountIn(uint amountOut, uint reserveIn, uint reserveOut)
     
 
     

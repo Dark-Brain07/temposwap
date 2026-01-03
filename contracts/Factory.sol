@@ -258,7 +258,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
             unchecked {
                 liquidity = Math.min(amount0 * _totalSupply / _reserve0, amount1 * _totalSupply / _reserve1);
             }
-        }
+        
 
 
 

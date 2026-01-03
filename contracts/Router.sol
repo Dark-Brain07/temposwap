@@ -481,7 +481,7 @@ library UniswapV2Library {
             uint denominator = reserveIn * 1000 + amountInWithFee;
             amountOut = numerator / denominator;
         }
-    
+    }
 
     
 

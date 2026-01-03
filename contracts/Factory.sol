@@ -206,6 +206,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
                 price1CumulativeLast += uint(UQ112x112.encode(_reserve1).qdiv(_reserve0)) * timeElapsed;
             }
         }
+        reserve0 = uint112(balance0);
 
             
         

@@ -267,6 +267,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         emit Mint(msg.sender, amount0, amount1);
     }
 
+    // this low-level function should be called from a contract which performs important safety checks
 
         
 

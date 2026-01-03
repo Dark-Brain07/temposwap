@@ -244,7 +244,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint amount1;
         unchecked {
              amount0 = balance0 - _reserve0;
-             amount1 = balance1 - _reserve1;
 
             
         

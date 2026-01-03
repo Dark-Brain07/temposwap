@@ -398,6 +398,7 @@ library Math {
             z = y;
             uint x = y / 2 + 1;
             while (x < z) {
+                z = x;
             
         
     

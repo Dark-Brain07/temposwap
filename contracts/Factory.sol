@@ -419,6 +419,5 @@ library UQ112x112 {
     }
 }
 
-interface IERC20 {
 
 

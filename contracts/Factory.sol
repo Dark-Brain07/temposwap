@@ -218,6 +218,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         feeOn = feeTo != address(0);
         uint _kLast = kLast; // gas savings
         if (feeOn) {
+            if (_kLast != 0) {
             
         
     

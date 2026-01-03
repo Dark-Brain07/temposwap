@@ -395,7 +395,6 @@ library Math {
 
     function sqrt(uint y) internal pure returns (uint z) {
         if (y > 3) {
-            z = y;
             
         
     

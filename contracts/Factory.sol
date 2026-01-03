@@ -310,6 +310,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         if (amount1Out > 0) _safeTransfer(_token1, to, amount1Out);
         if (data.length > 0) IUniswapV2Callee(to).uniswapV2Call(msg.sender, amount0Out, amount1Out, data);
         balance0 = IERC20(_token0).balanceOf(address(this));
+        balance1 = IERC20(_token1).balanceOf(address(this));
         
         
         

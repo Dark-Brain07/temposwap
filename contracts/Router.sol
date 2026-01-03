@@ -477,7 +477,6 @@ library UniswapV2Library {
         require(reserveIn > 0 && reserveOut > 0, 'UniswapV2Library: INSUFFICIENT_LIQUIDITY');
         unchecked {
             uint amountInWithFee = amountIn * 997;
-            uint numerator = amountInWithFee * reserveOut;
     
 
     

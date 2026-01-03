@@ -199,6 +199,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         require(balance0 <= type(uint112).max && balance1 <= type(uint112).max, 'UniswapV2: OVERFLOW');
         uint32 blockTimestamp = uint32(block.timestamp % 2**32);
         unchecked {
+            uint32 timeElapsed = blockTimestamp - blockTimestampLast;
 
             
         

@@ -480,6 +480,7 @@ library UniswapV2Library {
             uint numerator = amountInWithFee * reserveOut;
             uint denominator = reserveIn * 1000 + amountInWithFee;
             amountOut = numerator / denominator;
+        }
     
 
     

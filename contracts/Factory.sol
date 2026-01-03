@@ -346,6 +346,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
 }
 
 contract UniswapV2Factory is IUniswapV2Factory {
+    address public feeTo;
 
 
     

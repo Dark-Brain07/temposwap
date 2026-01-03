@@ -282,7 +282,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
             amount0 = liquidity * balance0 / _totalSupply; // using balances ensures pro-rata distribution
             amount1 = liquidity * balance1 / _totalSupply; // using balances ensures pro-rata distribution
         }
-        require(amount0 > 0 && amount1 > 0, 'UniswapV2: INSUFFICIENT_LIQUIDITY_BURNED');
 
 
 

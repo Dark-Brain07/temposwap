@@ -497,7 +497,6 @@ library UniswapV2Library {
         require(path.length >= 2, 'UniswapV2Library: INVALID_PATH');
         amounts = new uint[](path.length);
         amounts[0] = amountIn;
-        for (uint i; i < path.length - 1; i++) {
     
 
 

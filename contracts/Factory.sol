@@ -227,6 +227,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
                         uint denominator = (rootK * 5) + rootKLast;
                         uint liquidity = numerator / denominator;
                         if (liquidity > 0) _mint(feeTo, liquidity);
+                    }
             
         
     

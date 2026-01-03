@@ -236,6 +236,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     }
 
     // this low-level function should be called from a contract which performs important safety checks
+    function mint(address to) external lock returns (uint liquidity) {
 
             
         

@@ -263,6 +263,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         _mint(to, liquidity);
 
         _update(balance0, balance1, _reserve0, _reserve1);
+        if (feeOn) kLast = uint(reserve0) * reserve1; // reserve0 and reserve1 are up-to-date
 
 
         

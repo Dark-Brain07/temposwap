@@ -478,6 +478,7 @@ library UniswapV2Library {
         unchecked {
             uint amountInWithFee = amountIn * 997;
             uint numerator = amountInWithFee * reserveOut;
+            uint denominator = reserveIn * 1000 + amountInWithFee;
     
 
     

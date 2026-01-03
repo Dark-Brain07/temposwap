@@ -504,7 +504,6 @@ library UniswapV2Library {
     }
 
     function getAmountsIn(address factory, uint amountOut, address[] memory path) internal view returns (uint[] memory amounts) {
-        require(path.length >= 2, 'UniswapV2Library: INVALID_PATH');
 
 
     

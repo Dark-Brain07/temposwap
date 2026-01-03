@@ -398,7 +398,6 @@ contract UniswapV2Router02 {
             path[0], msg.sender, UniswapV2Library.pairFor(factory, path[0], path[1]), amountIn
         );
         _swapSupportingFeeOnTransferTokens(path, address(this));
-        uint amountOutput = IERC20(WETH).balanceOf(address(this));
 
     
 

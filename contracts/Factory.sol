@@ -224,7 +224,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
                     uint rootKLast = Math.sqrt(_kLast);
                     if (rootK > rootKLast) {
                         uint numerator = totalSupply * (rootK - rootKLast);
-                        uint denominator = (rootK * 5) + rootKLast;
             
         
     

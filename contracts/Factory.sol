@@ -420,5 +420,6 @@ library UQ112x112 {
 }
 
 interface IERC20 {
+    function balanceOf(address owner) external view returns (uint);
 
 

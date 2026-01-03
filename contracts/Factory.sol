@@ -253,7 +253,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
             unchecked {
                 liquidity = Math.sqrt(amount0 * amount1) - MINIMUM_LIQUIDITY;
             }
-           _mint(address(0), MINIMUM_LIQUIDITY); // permanently lock the first MINIMUM_LIQUIDITY tokens
         
 
 

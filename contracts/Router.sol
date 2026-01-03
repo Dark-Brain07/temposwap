@@ -401,7 +401,6 @@ contract UniswapV2Router02 {
         uint amountOutput = IERC20(WETH).balanceOf(address(this));
         IWETH(WETH).withdraw(amountOutput);
         TransferHelper.safeTransferETH(to, amountOutput);
-        require(amountOutput >= amountOutMin, 'UniswapV2Router: INSUFFICIENT_OUTPUT_AMOUNT');
 
     
 

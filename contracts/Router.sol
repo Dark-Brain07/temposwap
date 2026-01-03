@@ -440,7 +440,6 @@ contract UniswapV2Router02 {
         public
         view
         virtual
-        returns (uint[] memory amounts)
     
     
 

@@ -222,7 +222,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
                 unchecked {
                     uint rootK = Math.sqrt(uint(_reserve0) * _reserve1);
                     uint rootKLast = Math.sqrt(_kLast);
-                    if (rootK > rootKLast) {
             
         
     

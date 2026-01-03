@@ -397,6 +397,7 @@ library Math {
         if (y > 3) {
             z = y;
             uint x = y / 2 + 1;
+            while (x < z) {
             
         
     

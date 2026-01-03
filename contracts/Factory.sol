@@ -251,7 +251,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint _totalSupply = totalSupply; // gas savings, must be defined here since totalSupply can update in _mintFee
         if (_totalSupply == 0) {
             unchecked {
-                liquidity = Math.sqrt(amount0 * amount1) - MINIMUM_LIQUIDITY;
             
         
 

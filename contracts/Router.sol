@@ -515,7 +515,6 @@ library UniswapV2Library {
 }
 
 library TransferHelper {
-    function safeApprove(address token, address to, uint value) internal {
 
     
 

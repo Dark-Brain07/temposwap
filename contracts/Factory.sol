@@ -297,7 +297,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     // this low-level function should be called from a contract which performs important safety checks
     function swap(uint amount0Out, uint amount1Out, address to, bytes calldata data) external lock {
         require(amount0Out > 0 || amount1Out > 0, 'UniswapV2: INSUFFICIENT_OUTPUT_AMOUNT');
-        (uint112 _reserve0, uint112 _reserve1,) = getReserves(); // gas savings
 
         
         

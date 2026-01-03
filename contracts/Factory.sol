@@ -382,7 +382,6 @@ contract UniswapV2Factory is IUniswapV2Factory {
         feeTo = _feeTo;
     }
 
-    function setFeeToSetter(address _feeToSetter) external {
     
 
 

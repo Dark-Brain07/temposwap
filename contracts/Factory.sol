@@ -247,7 +247,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
              amount1 = balance1 - _reserve1;
         }
 
-        bool feeOn = _mintFee(_reserve0, _reserve1);
             
         
 

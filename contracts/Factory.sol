@@ -410,7 +410,6 @@ library Math {
 library UQ112x112 {
     uint224 constant Q112 = 2**112;
 
-    function encode(uint112 y) internal pure returns (uint224 z) {
     
 
 

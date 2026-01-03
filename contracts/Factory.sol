@@ -305,6 +305,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         { // scope for _token{0,1}, avoids stack too deep errors
         address _token0 = token0;
         address _token1 = token1;
+        require(to != _token0 && to != _token1, 'UniswapV2: INVALID_TO');
         
         
         

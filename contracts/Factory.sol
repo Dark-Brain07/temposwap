@@ -216,6 +216,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
     function _mintFee(uint112 _reserve0, uint112 _reserve1) private returns (bool feeOn) {
         address feeTo = IUniswapV2Factory(factory).feeTo();
         feeOn = feeTo != address(0);
+        uint _kLast = kLast; // gas savings
             
         
     

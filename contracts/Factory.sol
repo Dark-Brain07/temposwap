@@ -331,6 +331,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         emit Swap(msg.sender, amount0In, amount1In, amount0Out, amount1Out, to);
     }
 
+    function skim(address to) external lock {
 
     
 

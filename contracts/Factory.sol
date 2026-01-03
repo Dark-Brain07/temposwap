@@ -287,7 +287,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         _safeTransfer(_token0, to, amount0);
         _safeTransfer(_token1, to, amount1);
         balance0 = IERC20(_token0).balanceOf(address(this));
-        balance1 = IERC20(_token1).balanceOf(address(this));
 
 
 

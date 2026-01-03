@@ -433,7 +433,6 @@ contract UniswapV2Router02 {
         virtual
         returns (uint[] memory amounts)
     {
-        return UniswapV2Library.getAmountsOut(factory, amountIn, path);
 
     
     

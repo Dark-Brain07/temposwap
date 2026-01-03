@@ -520,7 +520,6 @@ library TransferHelper {
         require(success && (data.length == 0 || abi.decode(data, (bool))), 'TransferHelper: APPROVE_FAILED');
     }
 
-    function safeTransfer(address token, address to, uint value) internal {
     
 
     

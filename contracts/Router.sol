@@ -453,6 +453,7 @@ library UniswapV2Library {
         require(token0 != address(0), 'UniswapV2Library: ZERO_ADDRESS');
     }
 
+    function pairFor(address factory, address tokenA, address tokenB) internal view returns (address pair) {
     
 
     

@@ -316,6 +316,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint amount1In;
         unchecked {
             amount0In = balance0 > _reserve0 - amount0Out ? balance0 - (_reserve0 - amount0Out) : 0;
+            amount1In = balance1 > _reserve1 - amount1Out ? balance1 - (_reserve1 - amount1Out) : 0;
         
         
         

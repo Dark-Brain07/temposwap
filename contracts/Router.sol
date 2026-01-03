@@ -422,6 +422,7 @@ contract UniswapV2Router02 {
         public
         pure
         virtual
+        returns (uint amountIn)
     
 
     

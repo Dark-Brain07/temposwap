@@ -202,7 +202,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
             uint32 timeElapsed = blockTimestamp - blockTimestampLast;
             if (timeElapsed > 0 && _reserve0 != 0 && _reserve1 != 0) {
                 // * never overflows, and + overflow is desired
-                price0CumulativeLast += uint(UQ112x112.encode(_reserve0).qdiv(_reserve1)) * timeElapsed;
 
             
         

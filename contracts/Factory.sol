@@ -248,6 +248,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         }
 
         bool feeOn = _mintFee(_reserve0, _reserve1);
+        uint _totalSupply = totalSupply; // gas savings, must be defined here since totalSupply can update in _mintFee
             
         
 

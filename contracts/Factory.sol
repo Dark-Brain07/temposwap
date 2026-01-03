@@ -231,7 +231,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
                 }
             }
         } else if (_kLast != 0) {
-            kLast = 0;
         
     
 

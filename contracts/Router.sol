@@ -406,7 +406,6 @@ contract UniswapV2Router02 {
 
     // **** LIBRARY FUNCTIONS ****
     function quote(uint amountA, uint reserveA, uint reserveB) public pure virtual returns (uint amountB) {
-        return UniswapV2Library.quote(amountA, reserveA, reserveB);
     
 
     

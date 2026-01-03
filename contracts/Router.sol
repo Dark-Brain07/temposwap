@@ -491,7 +491,7 @@ library UniswapV2Library {
             uint denominator = (reserveOut - amountOut) * 997;
             amountIn = (numerator / denominator) + 1;
         }
-    
+    }
 
     
 

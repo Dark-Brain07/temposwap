@@ -458,7 +458,6 @@ library UniswapV2Library {
         require(pair != address(0), "UniswapV2Library: PAIR_NOT_FOUND");
     }
 
-    function getReserves(address factory, address tokenA, address tokenB) internal view returns (uint reserveA, uint reserveB) {
     
 
     

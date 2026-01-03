@@ -220,6 +220,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         if (feeOn) {
             if (_kLast != 0) {
                 unchecked {
+                    uint rootK = Math.sqrt(uint(_reserve0) * _reserve1);
             
         
     

@@ -464,6 +464,7 @@ library UniswapV2Library {
         (reserveA, reserveB) = tokenA == token0 ? (reserve0, reserve1) : (reserve1, reserve0);
     }
 
+    function quote(uint amountA, uint reserveA, uint reserveB) internal pure returns (uint amountB) {
     
 
     

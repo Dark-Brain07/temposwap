@@ -301,7 +301,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         require(amount0Out < _reserve0 && amount1Out < _reserve1, 'UniswapV2: INSUFFICIENT_LIQUIDITY');
 
         uint balance0;
-        uint balance1;
         
         
         

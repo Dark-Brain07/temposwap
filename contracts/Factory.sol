@@ -313,7 +313,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         balance1 = IERC20(_token1).balanceOf(address(this));
         }
         uint amount0In;
-        uint amount1In;
         
         
         

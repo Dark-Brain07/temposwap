@@ -260,7 +260,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
             }
         }
         require(liquidity > 0, 'UniswapV2: INSUFFICIENT_LIQUIDITY_MINTED');
-        _mint(to, liquidity);
 
 
 

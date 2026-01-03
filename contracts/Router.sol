@@ -447,7 +447,6 @@ contract UniswapV2Router02 {
 }
 
 library UniswapV2Library {
-    function sortTokens(address tokenA, address tokenB) internal pure returns (address token0, address token1) {
     
 
     

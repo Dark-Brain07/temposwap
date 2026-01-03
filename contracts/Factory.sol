@@ -322,6 +322,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         { // scope for reserve{0,1}Adjusted, avoids stack too deep errors
         unchecked {
             uint balance0Adjusted = balance0 * 1000 - amount0In * 3;
+            uint balance1Adjusted = balance1 * 1000 - amount1In * 3;
         
         
 

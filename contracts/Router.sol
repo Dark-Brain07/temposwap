@@ -454,6 +454,7 @@ library UniswapV2Library {
     }
 
     function pairFor(address factory, address tokenA, address tokenB) internal view returns (address pair) {
+        pair = IUniswapV2Factory(factory).getPair(tokenA, tokenB); 
     
 
     

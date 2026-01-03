@@ -200,6 +200,7 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         uint32 blockTimestamp = uint32(block.timestamp % 2**32);
         unchecked {
             uint32 timeElapsed = blockTimestamp - blockTimestampLast;
+            if (timeElapsed > 0 && _reserve0 != 0 && _reserve1 != 0) {
 
             
         

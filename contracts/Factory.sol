@@ -210,7 +210,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         reserve1 = uint112(balance1);
         blockTimestampLast = blockTimestamp;
         emit Sync(reserve0, reserve1);
-    }
 
             
         

@@ -201,7 +201,6 @@ contract UniswapV2Pair is UniswapV2ERC20 {
         unchecked {
             uint32 timeElapsed = blockTimestamp - blockTimestampLast;
             if (timeElapsed > 0 && _reserve0 != 0 && _reserve1 != 0) {
-                // * never overflows, and + overflow is desired
 
             
         

@@ -354,7 +354,7 @@ contract UniswapV2Factory is IUniswapV2Factory {
 
     constructor(address _feeToSetter) {
         feeToSetter = _feeToSetter;
-    
+    }
 
 
         

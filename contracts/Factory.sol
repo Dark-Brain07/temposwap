@@ -358,7 +358,6 @@ contract UniswapV2Factory is IUniswapV2Factory {
 
     function allPairsLength() external view returns (uint) {
         return allPairs.length;
-    }
 
         
 

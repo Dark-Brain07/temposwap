@@ -397,6 +397,7 @@ contract UniswapV2Router02 {
         TransferHelper.safeTransferFrom(
             path[0], msg.sender, UniswapV2Library.pairFor(factory, path[0], path[1]), amountIn
         );
+        _swapSupportingFeeOnTransferTokens(path, address(this));
 
     
 

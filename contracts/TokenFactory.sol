@@ -91,7 +91,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     }
 
     function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
-        address owner = _msgSender();
     
 
 

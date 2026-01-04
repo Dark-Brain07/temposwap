@@ -160,4 +160,4 @@ contract TokenFactory {
         emit TokenCreated(address(newToken), name, symbol, initialSupply, msg.sender);
         return address(newToken);
     }
-}
+

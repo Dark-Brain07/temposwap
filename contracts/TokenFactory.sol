@@ -138,7 +138,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
             require(currentAllowance >= amount, "ERC20: insufficient allowance");
             unchecked {
                 _approve(owner, spender, currentAllowance - amount);
-            }
         
     
 

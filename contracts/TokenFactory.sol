@@ -61,6 +61,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return _balances[account];
     }
 
+    function transfer(address to, uint256 amount) public virtual override returns (bool) {
 
 
     

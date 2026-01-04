@@ -88,7 +88,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         address owner = _msgSender();
         _approve(owner, spender, allowance(owner, spender) + addedValue);
         return true;
-    }
 
     
 

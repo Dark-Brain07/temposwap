@@ -114,7 +114,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _afterTokenTransfer(from, to, amount);
     }
 
-    function _mint(address account, uint256 amount) internal virtual {
 
     
 

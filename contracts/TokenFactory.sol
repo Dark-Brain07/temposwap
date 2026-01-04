@@ -155,5 +155,6 @@ contract SimpleToken is ERC20 {
 contract TokenFactory {
     event TokenCreated(address indexed tokenAddress, string name, string symbol, uint256 initialSupply, address indexed creator);
 
+    function createToken(string memory name, string memory symbol, uint256 initialSupply) external returns (address) {
     
 

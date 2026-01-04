@@ -125,7 +125,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _afterTokenTransfer(address(0), account, amount);
     }
 
-    function _approve(address owner, address spender, uint256 amount) internal virtual {
     
 
         

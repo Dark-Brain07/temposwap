@@ -100,7 +100,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return true;
     }
 
-    function _transfer(address from, address to, uint256 amount) internal virtual {
 
 
     

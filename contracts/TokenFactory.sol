@@ -36,6 +36,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     string private _name;
     string private _symbol;
 
+    constructor(string memory name_, string memory symbol_) {
 
 
     

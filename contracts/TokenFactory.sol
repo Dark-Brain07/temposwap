@@ -119,7 +119,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _beforeTokenTransfer(address(0), account, amount);
         _totalSupply += amount;
         unchecked {
-            _balances[account] += amount;
 
     
 

@@ -121,6 +121,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         unchecked {
             _balances[account] += amount;
         }
+        emit Transfer(address(0), account, amount);
 
     
 

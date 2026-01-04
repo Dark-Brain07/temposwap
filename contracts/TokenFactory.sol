@@ -71,6 +71,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return _allowances[owner][spender];
     }
 
+    function approve(address spender, uint256 amount) public virtual override returns (bool) {
     
 
 

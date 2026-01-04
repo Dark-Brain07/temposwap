@@ -95,7 +95,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         uint256 currentAllowance = allowance(owner, spender);
         require(currentAllowance >= subtractedValue, "ERC20: decreased allowance below zero");
         unchecked {
-            _approve(owner, spender, currentAllowance - subtractedValue);
     
 
 

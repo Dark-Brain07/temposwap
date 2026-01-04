@@ -97,7 +97,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         unchecked {
             _approve(owner, spender, currentAllowance - subtractedValue);
         }
-        return true;
     
 
 

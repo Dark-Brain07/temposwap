@@ -109,6 +109,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         unchecked {
             _balances[from] = fromBalance - amount;
             _balances[to] += amount;
+        }
 
 
     

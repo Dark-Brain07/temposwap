@@ -152,7 +152,6 @@ contract SimpleToken is ERC20 {
     }
 }
 
-contract TokenFactory {
 
     
 

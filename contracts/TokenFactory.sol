@@ -117,7 +117,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     function _mint(address account, uint256 amount) internal virtual {
         require(account != address(0), "ERC20: mint to the zero address");
         _beforeTokenTransfer(address(0), account, amount);
-        _totalSupply += amount;
 
     
 

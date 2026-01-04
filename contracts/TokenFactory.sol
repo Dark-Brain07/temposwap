@@ -81,7 +81,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         address spender = _msgSender();
         _spendAllowance(from, spender, amount);
         _transfer(from, to, amount);
-        return true;
 
 
     

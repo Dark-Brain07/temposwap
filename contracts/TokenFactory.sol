@@ -57,6 +57,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return _totalSupply;
     }
 
+    function balanceOf(address account) public view virtual override returns (uint256) {
 
 
 

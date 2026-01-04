@@ -68,6 +68,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     }
 
     function allowance(address owner, address spender) public view virtual override returns (uint256) {
+        return _allowances[owner][spender];
 
     
 

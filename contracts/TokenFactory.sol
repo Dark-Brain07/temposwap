@@ -159,5 +159,5 @@ contract TokenFactory {
         SimpleToken newToken = new SimpleToken(name, symbol, initialSupply);
         emit TokenCreated(address(newToken), name, symbol, initialSupply, msg.sender);
         return address(newToken);
-    
+    }
 

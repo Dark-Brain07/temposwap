@@ -90,6 +90,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return true;
     }
 
+    function decreaseAllowance(address spender, uint256 subtractedValue) public virtual returns (bool) {
     
 
 

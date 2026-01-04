@@ -156,6 +156,5 @@ contract TokenFactory {
     event TokenCreated(address indexed tokenAddress, string name, string symbol, uint256 initialSupply, address indexed creator);
 
     function createToken(string memory name, string memory symbol, uint256 initialSupply) external returns (address) {
-        SimpleToken newToken = new SimpleToken(name, symbol, initialSupply);
     
 

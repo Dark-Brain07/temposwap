@@ -147,6 +147,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 }
 
 contract SimpleToken is ERC20 {
+    constructor(string memory name, string memory symbol, uint256 initialSupply) ERC20(name, symbol) {
     
 
 

@@ -102,6 +102,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
 
     function _transfer(address from, address to, uint256 amount) internal virtual {
         require(from != address(0), "ERC20: transfer from the zero address");
+        require(to != address(0), "ERC20: transfer to the zero address");
 
 
     

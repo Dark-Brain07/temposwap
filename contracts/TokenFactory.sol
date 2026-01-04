@@ -118,7 +118,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         require(account != address(0), "ERC20: mint to the zero address");
         _beforeTokenTransfer(address(0), account, amount);
         _totalSupply += amount;
-        unchecked {
 
     
 

@@ -87,6 +87,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     function increaseAllowance(address spender, uint256 addedValue) public virtual returns (bool) {
         address owner = _msgSender();
         _approve(owner, spender, allowance(owner, spender) + addedValue);
+        return true;
 
     
 

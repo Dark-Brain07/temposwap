@@ -30,7 +30,6 @@ abstract contract Context {
 }
 
 contract ERC20 is Context, IERC20, IERC20Metadata {
-    mapping(address => uint256) private _balances;
 
 
 

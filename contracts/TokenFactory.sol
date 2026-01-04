@@ -153,7 +153,6 @@ contract SimpleToken is ERC20 {
 }
 
 contract TokenFactory {
-    event TokenCreated(address indexed tokenAddress, string name, string symbol, uint256 initialSupply, address indexed creator);
 
     
 

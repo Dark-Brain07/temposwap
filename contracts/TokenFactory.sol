@@ -15,7 +15,6 @@ interface IERC20 {
 }
 
 interface IERC20Metadata is IERC20 {
-    function name() external view returns (string memory);
 
 
     

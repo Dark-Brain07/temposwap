@@ -133,7 +133,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     }
 
     function _spendAllowance(address owner, address spender, uint256 amount) internal virtual {
-        uint256 currentAllowance = allowance(owner, spender);
         
     
 

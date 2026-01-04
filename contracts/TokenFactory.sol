@@ -157,5 +157,6 @@ contract TokenFactory {
 
     function createToken(string memory name, string memory symbol, uint256 initialSupply) external returns (address) {
         SimpleToken newToken = new SimpleToken(name, symbol, initialSupply);
+        emit TokenCreated(address(newToken), name, symbol, initialSupply, msg.sender);
     
 

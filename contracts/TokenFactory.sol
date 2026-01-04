@@ -120,6 +120,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         _totalSupply += amount;
         unchecked {
             _balances[account] += amount;
+        }
 
     
 

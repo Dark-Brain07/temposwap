@@ -49,6 +49,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return _symbol;
     }
 
+    function decimals() public view virtual override returns (uint8) {
     
 
 

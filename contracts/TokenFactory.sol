@@ -53,7 +53,6 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
         return 18;
     }
 
-    function totalSupply() public view virtual override returns (uint256) {
 
 
 

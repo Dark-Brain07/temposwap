@@ -62,6 +62,7 @@ contract ERC20 is Context, IERC20, IERC20Metadata {
     }
 
     function transfer(address to, uint256 amount) public virtual override returns (bool) {
+        address owner = _msgSender();
 
 
     
